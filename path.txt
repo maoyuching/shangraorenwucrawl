@@ -1,0 +1,14 @@
+response.xpath('//div[@id="tctitle"]//a[@class="blue14b"]/text()').extract()
+名字path
+
+ response.xpath('//div[@id="tctitle"]//a[@target="_blank"]/text()').extract()
+ 朝代
+
+ response.xpath('//div[@id="tctitle"]/span[@class="bjc"]/a[1]/text()').extract()
+ birthYear
+
+  response.xpath('//div[@id="tcjs"]/text()').extract()
+  索引页简介
+
+   response.xpath('//table[@id="tjtable"]').extract()
+   每一个table
